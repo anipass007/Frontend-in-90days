@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Flex wrap and gap
+    </title>
+    <style>
+      .container{
+        margin: 1px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 100vh;
+        width: 100vw;
+        border: 2px solid black;
+        background-color: lightyellow;
+        align-content: center;
+        justify-content: center;
+      }
+      .card{
+        display: flex;
+        border: 2px solid black;
+        background-color: lightblue;
+        height: 200px;
+        width:100px;
+        align-items: center;
+        justify-content: center;
+        font-family: Times New Roman;
+        body{
+          font-family: Times New Roman;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">Card1</div>
+      <div class="card">Card2</div>
+      <div class="card">Card3</div>
+      <div class="card">Card4</div>
+      <div class="card">Card5</div>
+    </div>
+  </body>
+</html>
